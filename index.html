@@ -6,6 +6,77 @@
   <title>About | Your Name</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <style>
+  .navbar { 
+      margin-bottom: 0;
+      border-radius: 0;
+        }
+    .row.content {
+      height: 450px
+    }
+
+    .sidenav {
+      padding-top: 20px;
+      background-color: gray;
+    }
+
+    footer {
+      background-color: black;
+      padding: 25px;
+    }
+
+    @media screen and (max-width: 750px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content{
+        height: auto;
+        background-color: gray;
+      }
+    
+      .img.auth-image {
+        height: 400px;
+        width: 400px;
+      }  
+    }
+      @media screen and (max-width: 500px) {
+      .nav {
+        height: auto;
+        padding: 15px;
+      }
+
+      .body
+      {
+        background-color: purple;
+      }
+      .p{
+        height: auto;
+        background-color: gray;
+      }
+    
+      .img.auth-image {
+        height: 500px;
+        width: 500px;
+      }  }
+
+      @media screen and (max-width: 250px) {
+      .nav {
+        height: auto;
+        padding: 15px;
+      }
+      .p{
+        height: auto;
+        background-color: purple;
+      }
+    
+      .img.auth-image {
+       height: 250px
+      }  
+
+            
+    }
+  </style>
 </head>
 
 <body>
@@ -24,8 +95,7 @@
   <div id="main-container" class="container">
     <section class="main-section">
       <h1>About Me</h1>
-
-      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">
+      <img src="assets/images/cat.jpg" class="auth-image" alt="Your Name">   
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
 
@@ -39,7 +109,7 @@
 
   <footer>
     <div class="container">
-      Copyright &copy; 
+      Copyright, 2020, Justin Tucker  &copy; 
     </div>
   </footer>
 </body>
